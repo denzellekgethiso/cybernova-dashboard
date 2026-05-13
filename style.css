@@ -1,0 +1,128 @@
+/* Keep the main page background dark */
+.stApp {
+    background-color: #0f172a !important;
+}
+
+/* Main content area spacing */
+.block-container {
+    padding-top: 4rem;
+}
+
+.dashboard-header {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.dashboard-header h1 {
+    font-size: 4.2rem !important;
+    line-height: 1.1 !important;
+    font-weight: 600 !important;
+    color: #ffffff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.dashboard-header h2 {
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+    color: #cbd5e1 !important;
+    margin-top: 10px !important;
+    margin-bottom: 6px !important;
+}
+
+.dashboard-header p {
+    font-size: 1rem !important;
+    color: #94a3b8 !important;
+    margin: 0 !important;
+}
+
+/* Keep headings visible */
+h1, h2, h3 {
+    color: #f8fafc !important;
+}
+
+/* General main text */
+p, span, label, div {
+    color: inherit;
+}
+
+/* Plotly chart containers */
+div[data-testid="stPlotlyChart"] {
+    background: transparent !important;
+    padding: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    overflow: hidden !important;
+}
+
+/* Actual chart area */
+.js-plotly-plot,
+.plotly,
+.plot-container,
+.svg-container {
+    background-color: #ffffff !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
+}
+
+/* Remove chart scrolling */
+.plot-container plotly,
+.js-plotly-plot .plot-container {
+    overflow: hidden !important;
+}
+
+/* Insight / alert boxes */
+div[data-testid="stAlert"] {
+    background-color: #ffffff !important;
+    border: none !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+}
+
+/* Insight box text */
+div[data-testid="stAlert"] * {
+    color: #0f172a !important;
+}
+
+/* Metric cards should remain readable */
+div[data-testid="stMetric"] {
+    background-color: #ffffff !important;
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+}
+
+div[data-testid="stMetric"] * {
+    color: #0f172a !important;
+}
+
+/* Sidebar remains dark */
+section[data-testid="stSidebar"] {
+    background-color: #0f172a !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #f8fafc !important;
+}
+
+/* Dropdown menu fix */
+div[data-baseweb="popover"] * {
+    color: #0f172a !important;
+    background-color: #ffffff !important;
+}
+
+/* Top Streamlit header */
+header[data-testid="stHeader"] {
+    background-color: #020b22 !important;
+}
+
+/* Toolbar area (Deploy + menu) */
+div[data-testid="stToolbar"] {
+    background-color: #020b22 !important;
+}
+
+/* Main app view container */
+div[data-testid="stAppViewContainer"] {
+    background-color: #020b22 !important;
+}
+
